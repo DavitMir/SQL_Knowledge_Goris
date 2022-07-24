@@ -2,7 +2,7 @@
 
 select *, (quantity_in_stock * unit_price) as "most expensive" 
 from sql_store.products 
-order by "most expensive" desc, name limit 1;
+order by "most expensive" desc, name asc limit 1;
 
 # Alternative way 
 
